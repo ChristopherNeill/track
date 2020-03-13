@@ -1,0 +1,26 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "a cli that interphases with mysql to modify and view a table of employees for a large company",
+  "main": "server.js",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "track"
+  },
+  "keywords": [
+    "employeetracker"
+  ],
+  "author": "christopher searcy",
+  "license": "MIT"
+}
